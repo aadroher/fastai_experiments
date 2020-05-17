@@ -1,1 +1,2 @@
-.envrc
+kernel-*.json
+!.envrc

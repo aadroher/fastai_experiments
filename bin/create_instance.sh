@@ -7,4 +7,4 @@ gcloud compute instances create $INSTANCE_NAME \
         --machine-type=$INSTANCE_TYPE \
         --boot-disk-size=200GB \
         --metadata="install-nvidia-driver=True" \
-        --preemptible
+        # --preemptible
